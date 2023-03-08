@@ -1,0 +1,21 @@
+.main{
+    margin-top: 2rem;
+}
+
+.shippingCard{
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 80%;
+    background-color: #71edf1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.shippingHeading{
+    margin-left: 0.5rem;
+}
+
+.shippingHeading h2{
+    font-size: 30px;
+}

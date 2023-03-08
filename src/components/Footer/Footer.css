@@ -1,0 +1,58 @@
+@keyframes list {
+    from{padding-left: 0px;}
+    to{padding-left: 25px;}
+}
+
+
+
+.footer-list p{
+    margin-top: -13px;
+   font-size: 18px;
+}
+
+.footer-list p:hover{
+    animation-name: list;
+    animation-duration: .5s; 
+ padding-left: 25px;
+    color: #35abaf;
+    cursor: pointer;
+}
+
+.help p{
+    font-size: 
+    18px;
+}
+
+.help p a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#35abaf ;
+}
+
+@media only screen and (max-width:500px){
+    .for-outline{
+        border-bottom: 1px solid white;
+        padding: 10px 5px 10px 5px;
+    }
+
+    .for-margin{
+        padding: 10px 5px 10px 5px;
+        
+    }
+    .footer_divide{
+        width: 40% !important;
+        margin: auto;
+    }
+    .hid{
+        display: none !important;
+    }
+
+ 
+    
+}
